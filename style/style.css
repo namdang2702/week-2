@@ -1,0 +1,95 @@
+body {background-color:rgb(233, 177, 177);
+        margin: 2em;
+}
+
+
+p { margin: 10px 0px 10px 10px;
+    text-indent: 1cm;
+}
+
+
+p::first-letter { font-size: 0.8cm;
+    color: rgb(65, 109, 204);
+    padding-right: 2px;
+}
+
+
+#hea1 { color: rgb(24, 158, 113);
+        font-size: 2em;
+        font-family: cursive;
+        line-height: 1em;
+        text-decoration: underline;
+}
+
+
+#hea2{  color: rgb(88, 89, 94);
+        font-size: 30px;
+        font-family: monospace;
+        line-height: 20px;
+        font-variant: small-caps;
+        text-decoration: line-through;
+}
+
+
+#hea3 { color: rgb(240, 23, 23);
+        font-size: 180%;
+        font-family: serif;
+        line-height: 30%;
+        text-decoration: dashed;
+}
+
+
+#hea4 { color: rgb(255, 255, 0);
+        font-size: 0.7cm;
+        font-style: italic;
+        font-family: unset;
+        line-height: 0.5cm;
+        text-decoration: overline;
+}
+
+
+.doc1 { cursor: pointer;
+        font-style: unset;
+        margin: 10px;
+}
+
+
+.doc2 { cursor: grab;
+        font-style: italic;
+        margin: 10px;
+}
+
+
+.doc3 { cursor: move; 
+        font-style: inherit;
+        margin: 10px;
+}
+
+
+.doc4 { cursor: s-resize;
+    font-style: oblique ;
+    margin: 10px;
+}
+
+
+.pic2 { width: 400px;
+        height: auto;
+        margin: 0.6cm;
+        border-radius: 40px;
+}
+
+
+#pic {  border-radius: 50px;
+    float: right;
+    margin: 0.6cm;
+    border-style: inset;
+    border-color: seagreen;
+    width: 40em;
+    height: 20em;
+}
+
+
+img:hover { opacity: 0.8;
+}
+
+
